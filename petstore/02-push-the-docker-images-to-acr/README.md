@@ -62,7 +62,7 @@ run the following commands:
 
 > 📝 Please Note, you are now tagging your local Docker image built in the previous guide so that we can push it to Azure Container Registry then push it
 
-`docker image tag <petstorepetservice>:latest <youraliaspetstorecr>.azurecr.io/petstorepetservice:latest`
+`docker image tag petstorepetservice:latest <youraliaspetstorecr>.azurecr.io/petstorepetservice:latest`
 
 `docker push <youraliaspetstorecr>.azurecr.io/petstorepetservice:latest`
 
@@ -76,7 +76,7 @@ run the following commands:
 
 > 📝 Please Note, you are now tagging your local Docker image built in the previous guide so that we can push it to Azure Container Registry then push it
 
-`docker image tag <petstoreproductservice>:latest <youraliaspetstorecr>.azurecr.io/petstoreproductservice:latest`
+`docker image tag petstoreproductservice:latest <youraliaspetstorecr>.azurecr.io/petstoreproductservice:latest`
 
 `docker push <youraliaspetstorecr>.azurecr.io/petstoreproductservice:latest`
 
@@ -90,7 +90,7 @@ run the following commands:
 
 > 📝 Please Note, you are now tagging your local Docker image built in the previous guide so that we can push it to Azure Container Registry then push it
 
-`docker image tag <petstoreorderervice>:latest <youraliaspetstorecr>.azurecr.io/petstoreorderservice:latest`
+`docker image tag petstoreorderervice:latest <youraliaspetstorecr>.azurecr.io/petstoreorderservice:latest`
 
 `docker push <youraliaspetstorecr>.azurecr.io/petstoreorderservice:latest`
 
