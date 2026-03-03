@@ -10,7 +10,7 @@ RUN mvn clean package
 #
 # Package stage
 #
-FROM openjdk:8-jre-alpine
+FROM eclipse-temurin:8-jre-alpine
 
 WORKDIR /app
 
