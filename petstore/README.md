@@ -10,7 +10,7 @@ Often, it is handy to have an N-Tiered Azure architected deployment ready to go,
 
 ![](https://github.com/chtrembl/azure-cloud/blob/main/petstore/petstore_architecture.png?raw=true)
   
-As mentioned above, the objective is for you to be able to learn and showcase the many uses of App Dev Services within Azure. Below are some of the useful scenarios that are currently available in these guides. 
+As mentioned above, the objective here is for you to be able to learn and showcase the many uses of App Dev Services within Azure. Below are some of the useful scenarios that are currently available in these guides. 
 
 - CI/CD into Azure App Service & Azure Kubernetes Service using Azure DevOps Pipelines and GitHub Actions
 
